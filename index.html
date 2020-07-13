@@ -3,96 +3,57 @@
 
 <head>
   <meta charset="utf-8">
-  <meta description="This is a website about Martin Ostrem's adventure into frontend development">
-  <title>Martin's Personal Site</title>
+  <title>Martin's website</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/favicon.png">
 </head>
 
 <body>
-  <table cellspacing="20px">
-    <tr>
-      <td><img src="images/martins-profile.jpg" alt="Martin's profile picture"></td>
-      <td>
-        <h1>Martin A. Ostrem</h1>
-        <p><em>User Experience Designer at <strong><a href="https://www.usbank.com/index.html">U.S. Bank</a></strong></em></p>
-        <p>I am a user experience designer at U.S. Bank designing financial products for our consumer human. I have about 5 years experience in UX design and am currently rebuilding one of our amazing platforms. I'm currently learning about frontend
-          development to better understand the process that happens behind the scenes and better understand what's feasible.</p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>Univeristy of Minnesota - Twin Cities</li>
-    <li>Robbinsdale Cooper Highschool</li>
-  </ul>
-  <hr>
-  <h3>Work experience</h3>
-  <table border="1px">
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Position</th>
-        <th>Company</th>
-      </tr>
-    </thead>
-    <tr>
-      <td>2013 - 2016</td>
-      <td>UX Lead</td>
-      <td>Echidna Inc.</td>
-    </tr>
-    <tr>
-      <td>2017 - Present</td>
-      <td>Experience Architect</td>
-      <td>U.S. Bank</td>
-    </tr>
-  </table>
-  <hr>
-  <h3><a href="hobbies.html">My hobbies</a></h3>
-  <hr>
-  <h3><a href="contactinfo.html">Contact information</a></h3>
-  <hr>
-  <h3>Skills</h3>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud image">
+    <h1>I'm Martin</h1>
+    <h2>A <span class="pro">ux</span> designer and front end developer</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud image">
+    <img src="images/mountain.png" alt="mountain image">
+  </div>
 
-  <table cellspacing="10px">
-    <tr>
-      <td>
-        <table>
-          <tr>
-            <td>User experience</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Development</td>
-            <td>⭐⭐⭐</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table>
-          <tr>
-            <td>Woodworking</td>
-            <td>⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Hiking</td>
-            <td>⭐⭐⭐</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table>
-          <tr>
-            <td>User experience</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Development</td>
-            <td>⭐⭐⭐</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/martins-profile.jpg" alt="Profile picture of Martin.">
+      <h2>Design and development portfolio</h2>
+      <p class="intro">As a designer I am focused on creating usable, wanted experiences. One of the keys to good design is designing for our customer's needs, if we design for a need that doesn not exist we ultimately aren't solving a problem for our user.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills</h2>
+      <div class="skill-row">
+        <img class="chillies-img" src="images/chillies.png" alt="Image of chillies.">
+        <h3>UX Design</h3>
+        <p class="description">For ~5 years I've been designing experiences focused on solving customer and business problems. I understand each phase of the design process, everything from discovery research to execution of design, into a our user's hands.</p>
+      </div>
+      <div class="skill-row">
+        <img class="computer-img" src="images/computer.png" alt="">
+        <h3>Developer</h3>
+        <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+      </div>
+    </div>
+    <br>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <p class="contact-message">UX designer by trade, developer throught trial and error. Experienced in eCommerce and financial industry user experiences with a user centered approach.</p>
+      <a class="btn" href="mailto:ostre043@gmail.com">Contact me</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://lawsofux.com/">Laws of UX</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="copyright">© 2020 Martin Ostrem @ Ostrem Design.</p>
+  </div>
 
 </body>
 
